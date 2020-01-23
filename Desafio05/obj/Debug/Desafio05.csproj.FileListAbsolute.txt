@@ -72,7 +72,6 @@ C:\Users\GEDO\source\repos\Desafio05\Desafio05\bin\System.Web.WebPages.Razor.xml
 C:\Users\GEDO\source\repos\Desafio05\Desafio05\bin\Newtonsoft.Json.xml
 C:\Users\GEDO\source\repos\Desafio05\Desafio05\bin\Antlr3.Runtime.pdb
 C:\Users\GEDO\source\repos\Desafio05\Desafio05\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\GEDO\source\repos\Desafio05\Desafio05\obj\Debug\Desafio05.csprojAssemblyReference.cache
 C:\Users\GEDO\source\repos\Desafio05\Desafio05\obj\Debug\Desafio05.csproj.CopyComplete
 C:\Users\GEDO\source\repos\Desafio05\Desafio05\obj\Debug\Desafio05.dll
 C:\Users\GEDO\source\repos\Desafio05\Desafio05\obj\Debug\Desafio05.pdb
@@ -80,3 +79,4 @@ C:\Users\GEDO\source\repos\Desafio05\Desafio05\bin\EntityFramework.dll
 C:\Users\GEDO\source\repos\Desafio05\Desafio05\bin\EntityFramework.SqlServer.dll
 C:\Users\GEDO\source\repos\Desafio05\Desafio05\bin\EntityFramework.xml
 C:\Users\GEDO\source\repos\Desafio05\Desafio05\bin\EntityFramework.SqlServer.xml
+C:\Users\GEDO\source\repos\Desafio05\Desafio05\obj\Debug\Desafio05.csprojAssemblyReference.cache

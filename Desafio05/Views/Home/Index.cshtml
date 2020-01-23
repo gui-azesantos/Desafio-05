@@ -1,31 +1,69 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
+<style>
+    .img-responsive {
+        margin: 0 auto;
+        align-content: center;
+        align-items: center;
+        width: 200px;
+        height: 200px;
+    }
+</style>
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">  Minha primeira aplicação ASP.NET MVC .</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="jumbotron" style="font-family:Bahnschrift; background-color:forestgreen; color:white">
+            <h1>ASP.NET</h1>
+            <p class="lead">  Minha primeira aplicação ASP.NET MVC .</p>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Projetos</h2>
-        <p>
-            Sessão direcionada aos meios de contatado comigo
-        </p>
-        <p><a class="btn btn-default" href="~/Projetos/Index">Clique aqui! &raquo;</a></p>
+        </div>
+        <div class="col-md-6" style="">
+            <div class="text-center">
+                <div style="font-size:20px; font-family: Bahnschrift; text-align: justify">
+                    <p>
+                        Sou Técnico em Administração de Empresas pela Etec Prefeito Braz Paschoalin e atualmente estudante de Gestão da Tecnologia da Informação.
+
+                        Com a recente entrada no mercado de trabalho, busco me encontrar em cargos relacionados à gestão de projetos na área de TI.<br>
+                        Amante e consumidor assíduo de podcast e Youtube, estou sempre me atualizando com os novos formatos e tendências que estão em alta nessas plataformas.<br>
+                        Durante o período de ensino técnico, tive a oportunidade de liderar algumas equipes e também atuei como representante de sala. O ensino técnico me proporcionou o desenvolvimento de habilidades relacionadas à organização e gestão.<br>
+                        Acredito que sustentabilidade no âmbito corporativo é um assunto de extrema importância, e por isso foi o tema escolhido para a realização do meu trabalho de conclusão de curso. Nele, pude analisar as micro e pequenas empresas e comprovar se a sustentabilidade empresarial poderia ser aplicada a elas. de conclusão de curso. Nele, pude analisar as micro e pequenas empresas e comprovar se a sustentabilidade empresarial poderia ser aplicada a elas.
+                    </p>
+                </div>
+            </div>
+         </div>
+        <div class="col-md-6" style="text-align:center; ">
+
+            <img src="~/Content/Images/0.jfif" height="300" width="300" style="border:solid; border-color:black; border-radius:150px 150px 150px 150px;">
+        </div>
     </div>
 
-    <div class="col-md-4">
-        <h2>Skill</h2>
-        <p> Sessão direcionada aos meios de contatado comigo</p>
-        <p><a class="btn btn-default" href="/Skills/Index">Clique aqui! &raquo;</a></p>
-    </div>
 
-    <div class="col-md-4">
-        <h2>Contatos</h2>
-        <p> Sessão direcionada aos meios de contatado comigo</p>
-        <p><a class="btn btn-default" href="~/Home/Contatos">Clique aqui! &raquo;</a></p>
+
+
+        <div class="col-md-4">
+            <img class="img-responsive" src="~/Content/Images/github.png" />
+            <h2>Projetos</h2>
+            <p>
+                Confira meus projetos!
+            </p>
+            <p><a class="btn btn-default" href="~/Projetos/Index">Clique aqui! &raquo;</a></p>
+        </div>
+
+
+        <div class="col-md-4">
+            <img class="img-responsive" src="~/Content/Images/skills.png" />
+            <h2>Skill</h2>
+            <p> Dê uma olhada nas minhas habilidades!</p>
+            <p><a class="btn btn-default" href="/Skills/Index">Clique aqui! &raquo;</a></p>
+        </div>
+
+
+        <div class="col-md-4">
+            <img class="img-responsive" src="~/Content/Images/contato1.png" />
+            <h2>Contatos</h2>
+            <p> Entre em contato comigo!</p>
+            <p><a class="btn btn-default" href="~/Home/Contato">Clique aqui! &raquo;</a></p>
+        </div>
+
     </div>
-</div>

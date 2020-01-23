@@ -13,16 +13,9 @@ namespace Desafio05.Controllers
             return View();
         }
 
-        public ActionResult About()
+           public ActionResult Contato()
         {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contatos()
-        {
-            ViewBag.Message = "Contatos";
+            ViewBag.Message = "Contato";
 
             return View();
         }
